@@ -8,6 +8,7 @@ const {ShoppingList, Recipes} = require('./models');
 
 const jsonParser = bodyParser.json();
 const app = express();
+console.log(test)
 
 // log the http layer
 app.use(morgan('common'));
